@@ -1,0 +1,36 @@
+body {
+    background-image: url("/images/R\ \(1).jfif");  
+    background-color: bisque;
+    background-size: auto; 
+    background-repeat: no-repeat; 
+    opacity: 5;
+}
+
+h1 {
+    color:black; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px; 
+}
+
+h2 {
+    font-size: 30px;
+} 
+
+h3 {
+
+    color:black; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+p {
+    
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+} 

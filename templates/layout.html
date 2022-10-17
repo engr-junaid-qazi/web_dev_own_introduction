@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+{% include 'header.html' %}
+<body>
+   
+    <a href = "/"> Home</a>  
+    <a href = "/about"> About</a> 
+    <a href = "/contact"> Contact</a>
+
+    {% block body %}
+
+    {% endblock %}
+
+    {% include 'footer.html' %}
+
+</body>
+</html>
