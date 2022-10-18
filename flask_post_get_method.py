@@ -22,6 +22,6 @@ def info():
     else:
         return "<h1>POST Method</h1>Hello "+ request.form['user'] + \
     " Your Email:"+request.form['email']
-    
 
-app.run(port="8000", debug=True) 
+if __name__ == '__main__': 
+    app.run(debug=True) 
