@@ -24,4 +24,4 @@ def info():
     " Your Email:"+request.form['email']
     
 
-app.run(port="8000")
+app.run(port="8000", debug=True) 
