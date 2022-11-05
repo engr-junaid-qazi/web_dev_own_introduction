@@ -2,61 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="UTF-8">
-  <!-- <meta name="description" content="Free Data Science, AI & ML  -->
-  <!-- tutorials & Useful Information"> -->
-  <!-- <meta name="keywords" content="HTML, CSS, JavaScript"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta name="description" content="Free Data Science, AI &amp; ML  -->
+  <!-- tutorials &amp; Useful Information"> -->
+  <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="author" content="Junaid Qazi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/static/style.css">
-  <title> Welcome to Engr. Junaid Qazi's Page </title>
-</head>
-
-    {% extends 'layout.html' %} 
+  <link rel="stylesheet" type="text/css" href="/static/style.css" media="all">
+  <title> Welcome to Engr. Junaid Qazi's Home Page </title>
+</head> 
 
 <body>
-    <!-- {% block body %} -->
-     
-        <a href = "https://www.linkedin.com/in/engrjunaidqazi"
-        target = "_blank"> </a>
-        <img src = "/images/IMG20220414122315.jpg"
-        width="200"
-        height="250" alt = "linkedin"> </a>
-
-    <!-- <h2> <b> About Me..... </b>  </h2> -->
-
+    {% extends 'layout.html' %}
+    {% block body %} 
+        
         <p> My name is <b>Engr. Junaid Jahangir Qazi.</b> By profession, i am an
             <b>Electronics Engineer. </b> I am currently employed at Indus
             University Karachi as a <b> "Lecturer" </b>, in the
-            department of <b>Electrical & Electronic Engineering </b>.
+            department of <b>Electrical & Electronics Engineering </b>.
         
             I am a versatile person having diverse capabilities to work
             in a challenging environment.
        </p>
-
-    <marquee>
-        <a href = "https://www.linkedin.com/in/engrjunaidqazi"
-        target = "_blank"> </a>
-        <img src = "/images/IMG20220414122316.jpg"
-        width="200"
-        height="300" alt = "linkedin"> </a>
-
-        <a href = "https://web.facebook.com/profile.php?id=100011665863653"
-        target = "_blank"> 
-        <img src = "F:\PICS\OWN PICS\IMG20211219140524.jpg" width="200"
-        height="300" alt = "facebook"></a>
-
-        <img src = "/images/73-733483_i-can-t-decide-which-i-like-better.jpg" width="200"
-        height="300" alt = "Engr. Junaid Qazi"> 
-    </marquee>
-
-        <!-- <img src = "images/Like-Symbol.jpeg" width = "100"  -->
-        <!-- height = "100" alt = "Facebook"> -->
-
-        <!-- <input type="button" value="LinkedIn"  -->
-        <!-- onclick="alert('This Way!');"  -->
-        <!-- src = "https://www.linkedin.com/in/engrjunaidqazi" >  -->
 
         <p> I am an Electronics Engineer, graduated from Dawood University of
             Engineering & Technology in 2012. Since then, i have done many jobs
@@ -84,7 +52,8 @@
                 <li> Web & Data Scraping & Extraction </li>
                 <li> HTML, CSS, JS, Flask </li>
                 <li> Machine Learning (in progress) </li>
-                <li> Cloud Computing (in progress) </li></ul></p><hr>
-    {% endblock %}  
+                <li> Cloud Computing (in progress) </li></ul></p><hr>    
+
+                {%endblock %}         
 </body>
 </html>

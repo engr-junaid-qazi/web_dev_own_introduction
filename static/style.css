@@ -1,9 +1,8 @@
 body {
-    background-image: url("/images/R\ \(1).jfif");  
-    background-color: bisque;
-    background-size: auto; 
-    background-repeat: no-repeat; 
-    opacity: 5;
+        background-image: url('/static/images/R.jfif');
+        background-size: auto; 
+        background-repeat: no-repeat; 
+        opacity: 1;
 }
 
 h1 {
@@ -26,11 +25,11 @@ h3 {
 p {
     
     color:black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px; 
 }
 
 ul {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px; 
 } 
