@@ -16,19 +16,29 @@
     this form: </b></p> 
     
     <form action="/info" method="POST">
-        <input type="text" name="user" placeholder="Full Name"><br><br>
-        <input type="email" name="email" placeholder="E-mail"><br><br>
-        <input type="password" name="pass" placeholder="Password"><br>
+        <b> Name </b>        <pre> <input type="text" name="user" placeholder="Full Name"><br><br></pre>
+        <b> E-mail </b>      <pre> <input type="email" name="email" placeholder="E-mail"><br><br></pre>
+        <b> Password </b>    <pre> <input type="password" name="pass" placeholder="Password"><br><br></pre>
+        <b> Contact No. </b> <pre> <input type="tel" name="numb" placeholder="Contact No.  " 
+        pattern="+[1-9]{2}-3[0-9]{2}-[0-9]{7}"><br></pre>
         <br><br>
-        <input type="Submit" value="Send">
-    </form> <hr> 
-
-        <p> <b>LinkedIn: </b></p> <a href="https://www.linkedin.com/in/engrjunaidqazi">
-        <img alt="LinkedIn" src="/static/images/linkedin.png">
+        <input type="Submit" value="Send"><br><br>
+    </form> 
     
-        <p> <b> Facebook: </b></p> <a href="https://web.facebook.com/profile.php?id=100011665863653">
-        <img alt="Facebook" src="/static/images/fb.png">
+    <b> Follow me: </b><br><br>
 
+        <a href="https://www.linkedin.com/in/engrjunaidqazi/" target = "_blank">
+        <img alt="LinkedIn" src="/static/images/R.png" width="50" height="50"> 
+
+        <a href="https://web.facebook.com/profile.php?id=100011665863653" 
+        target = "_blank">
+        <img alt="Facebook" src="/static/images/R.jpeg" width="50" height="47">
+
+        <a href="https://github.com/engr-junaid-qazi" target = "_blank">
+        <img alt="Github" src="/static/images/github64.png" width="50" height="50"> </a> </a> <hr>  
+        
+        <img alt="WhatsApp" src="/static/images/R (1).png" width="50" height="47"> 
+        <p><b> +92-333-2564221 </b></p>
         {% endblock %}
 </body>
 </html>

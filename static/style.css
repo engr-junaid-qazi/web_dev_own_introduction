@@ -1,6 +1,17 @@
+header {
+    
+    display: flow-root;
+    /* vertical-align: baseline; */
+    background-image: url('/static/images/OIP\ \(2\).jfif');
+    background-repeat: no-repeat;
+    background-size:auto; 
+    width: auto;
+    height: auto;
+}
+
 body {
         background-image: url('/static/images/R.jfif');
-        background-size: auto; 
+        background-size: cover; 
         background-repeat: no-repeat; 
         opacity: 1;
 }
@@ -25,11 +36,11 @@ h3 {
 p {
     
     color:black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px; 
 }
 
 ul {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px; 
+    font-size: 17px; 
 } 

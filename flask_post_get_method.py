@@ -17,11 +17,11 @@ def contact():
 @app.route("/info",methods=['GET','POST'])
 def info():
     if request.method == "GET":
-        return "<h1>Response Submitted!</h1><b>Dear "+ request.args.get('user')+" ."+ \
+        return "<h1>Response Submitted through GET!</h1><b>Dear "+ request.args.get('user')+" ."+ \
     " Your response against e-mail: "+request.args.get('email') + \
     " has been submitted successfully"
     else:
-        return "<h1>Response Submitted!</h1><b>Dear "+ request.form['user']+" ." + \
+        return "<h1>Response Submitted through POST!</h1><b>Dear "+ request.form['user']+" ." + \
     " Your response against e-mail: "+request.form['email']  + \
     " has been submitted successfully!"       
 
